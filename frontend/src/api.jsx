@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "http://localhost:5000/api/tasks"
+  baseURL: "https://mern-crud-app-sj2y.onrender.com"
 });
 
 export default API;
